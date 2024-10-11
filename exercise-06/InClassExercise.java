@@ -11,6 +11,7 @@ public class InClassExercise {
         stringArrayList.add("four");
         stringArrayList.add("five");
 
+        System.out.println("ArrayList Regular For Loop:");
         for (int i = 0; i < stringArrayList.size(); i++) {
             System.out.print(stringArrayList.get(i) + " ");
         }
@@ -18,6 +19,7 @@ public class InClassExercise {
 
         System.out.println("-----------------------");
 
+        System.out.println("ArrayList Iterator:");
         Iterator<String> iterator1 = stringArrayList.iterator();
         while (iterator1.hasNext()) {
             String str = iterator1.next();
@@ -27,6 +29,7 @@ public class InClassExercise {
 
         System.out.println("-----------------------");
 
+        System.out.println("TreeSet Iterator:");
         TreeSet<String> stringTreeSet = new TreeSet<>();
         stringTreeSet.add("apple");
         stringTreeSet.add("banana");

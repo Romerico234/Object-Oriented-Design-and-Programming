@@ -1,7 +1,5 @@
-package exercise_11;
-
 public class ColorFactory extends AbstractFactory {
-    
+
     public Color getColor(String color) {
         if (color == null) {
             return null;
@@ -22,4 +20,3 @@ public class ColorFactory extends AbstractFactory {
     }
 
 }
-

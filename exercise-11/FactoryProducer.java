@@ -1,5 +1,3 @@
-package exercise_11;
-
 public class FactoryProducer {
 
     public static AbstractFactory getFactory(String choice) {
